@@ -2,6 +2,8 @@ module IqairAirvisual
   class Client
     include ::IqairAirvisual::Community
 
+    # TODO: Air quality guidelines
+    # TODO: Units breakdown
     # TODO: Return codes
     # https://api-docs.iqair.com/?version=latest
     # Below are a few example of return codes you may get. This list is not exhaustive.
