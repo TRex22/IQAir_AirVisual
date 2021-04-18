@@ -3,6 +3,8 @@ A client for the IQAir AirVisual API.
 
 This is an unofficial project and still a work in progress (WIP) ... more to come soon.
 
+For API documentation see: https://api-docs.iqair.com/?version=latest
+
 ## Installation
 
 Add this line to your application's Gemfile:
