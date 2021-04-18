@@ -1,5 +1,6 @@
 module IqairAirvisual
   class Client
+    include ::IqairAirvisual::Constants
     include ::IqairAirvisual::Community
 
     # TODO: Air quality guidelines
@@ -23,7 +24,7 @@ module IqairAirvisual
       :raw_cookie,
       :expiry
 
-    def initialize(api_key:, base_path: 'http://api.airvisual.com/v2', port: 80)
+    def initialize(api_key:, base_path: BASE_PATH, port: 80)
       @api_key = api_key
       @base_path = base_path
       @port = port

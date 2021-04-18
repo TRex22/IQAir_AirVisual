@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    iqair_airvisual (0.0.1)
+    iqair_airvisual (0.0.2)
       active_attr (~> 0.15)
       httparty (~> 0.18)
 
